@@ -28,7 +28,7 @@ def build_page(textarea_content):
 
     submit = "<input type='submit'/>"
     form = ("<form method='post'>" + rot_label +
-        rotation_input + "<br>" + message_label + textarea +
+        rotation_input + "<br>" + "<br>" + message_label + textarea +
         "<br>" + submit + "</form>")
 
     header = "<h2>Web Caeser</h2>"
